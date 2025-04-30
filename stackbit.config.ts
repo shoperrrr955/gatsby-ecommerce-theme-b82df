@@ -3,7 +3,7 @@ import { defineStackbitConfig } from '@stackbit/types';
 export default defineStackbitConfig({
   stackbitVersion: '~0.5.0',
   ssg: 'gatsby',
-  nodeVersion: '16',
+  nodeVersion: '18',
   contentSources: [
     {
       name: 'assets',
